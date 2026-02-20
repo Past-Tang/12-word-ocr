@@ -1,13 +1,13 @@
 $ErrorActionPreference = 'Stop'
 
-# Change to the directory of this script, then into 'mian'
+# Change to the directory of this script, then into 'main'
 $scriptDir = Split-Path -LiteralPath $PSCommandPath -Parent
 Set-Location -LiteralPath $scriptDir
-Set-Location -LiteralPath (Join-Path -Path $scriptDir -ChildPath 'mian')
+Set-Location -LiteralPath (Join-Path -Path $scriptDir -ChildPath 'main')
 
 # Run python with passthrough args
 $python = 'python'
-& $python 'mian.py' @args
+& $python 'main.py' @args
 
 # Keep window open on double-click
 Write-Host ''

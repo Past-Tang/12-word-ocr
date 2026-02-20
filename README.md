@@ -56,7 +56,7 @@
    ./run.ps1
 
    # 方式二：直接运行
-   python mian/mian.py
+   python main/main.py
    ```
 3. 程序自动执行流程：
    - 初始化 OCR 引擎并加载英文模型
@@ -66,7 +66,7 @@
 
 ## 配置参数
 
-在 `mian/mian.py` 的 `main()` 函数中可调整以下参数：
+在 `main/main.py` 的 `main()` 函数中可调整以下参数：
 
 | 参数 | 默认值 | 说明 |
 |:---|:---|:---|
@@ -81,8 +81,8 @@
 
 ```
 12-word-ocr/
-├── mian/
-│   ├── mian.py          # 主程序：OCR 识别、过滤、排序、导出
+├── main/
+│   ├── main.py          # 主程序：OCR 识别、过滤、排序、导出
 │   └── PPOCR_api.py     # PaddleOCR API 封装层
 ├── lib/
 │   ├── model.exe        # PaddleOCR 引擎可执行文件
