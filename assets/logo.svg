@@ -1,21 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" fill="none">
-  <rect width="680" height="200" rx="16" fill="#0d1117"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 180" fill="none">
+  <rect width="680" height="180" rx="16" fill="#0d1117"/>
   <defs><pattern id="g" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0L0 0 0 40" fill="none" stroke="#161b22" stroke-width="1"/></pattern></defs>
-  <rect width="680" height="200" fill="url(#g)"/>
-  <g transform="translate(40,40)">
-    <rect width="120" height="120" rx="16" fill="#1a2332" stroke="#58a6ff" stroke-width="2.5"/>
-    <text x="60" y="50" font-family="monospace" font-size="28" fill="#58a6ff" text-anchor="middle" font-weight="700">12</text>
-    <text x="60" y="80" font-family="monospace" font-size="16" fill="#58a6ff" text-anchor="middle" opacity="0.7">WORDS</text>
-    <rect x="20" y="90" width="80" height="4" rx="2" fill="#21262d"/>
-    <rect x="20" y="90" width="55" height="4" rx="2" fill="#58a6ff" opacity="0.6"/>
-    <circle cx="30" cy="105" r="3" fill="#58a6ff" opacity="0.3"/>
-    <circle cx="45" cy="105" r="3" fill="#58a6ff" opacity="0.3"/>
-    <circle cx="60" cy="105" r="3" fill="#58a6ff" opacity="0.3"/>
+  <rect width="680" height="180" fill="url(#g)"/>
+  <g transform="translate(30,50)">
+    <rect width="80" height="80" rx="14" fill="#1a2332" stroke="#58a6ff" stroke-width="2"/>
+    <text x="40" y="38" font-family="monospace" font-size="24" fill="#58a6ff" text-anchor="middle" font-weight="700">12</text>
+    <text x="40" y="56" font-family="monospace" font-size="11" fill="#58a6ff" text-anchor="middle" opacity="0.7">WORDS</text>
+    <rect x="12" y="64" width="56" height="3" rx="1.5" fill="#21262d"/>
+    <rect x="12" y="64" width="38" height="3" rx="1.5" fill="#58a6ff" opacity="0.6"/>
   </g>
-  <text x="195" y="72" font-family="'Segoe UI',system-ui,sans-serif" font-size="46" fill="#e6edf3" font-weight="700" letter-spacing="-1">12-Word</text>
-  <text x="195" y="118" font-family="'Segoe UI',system-ui,sans-serif" font-size="46" fill="#58a6ff" font-weight="700" letter-spacing="-1">OCR Tool</text>
-  <text x="197" y="148" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" fill="#7d8590">&#x52A9;&#x8BB0;&#x8BCD;&#x56FE;&#x7247; OCR &#x8BC6;&#x522B; | PaddleOCR | &#x6279;&#x91CF;&#x5904;&#x7406;</text>
-  <g transform="translate(197,162)">
+  <text x="135" y="76" font-family="'Segoe UI',system-ui,sans-serif" font-size="42" fill="#e6edf3" font-weight="700" letter-spacing="-1">12-Word OCR Tool</text>
+  <text x="137" y="104" font-family="'Segoe UI',system-ui,sans-serif" font-size="14" fill="#7d8590">&#x52A9;&#x8BB0;&#x8BCD;&#x56FE;&#x7247; OCR &#x8BC6;&#x522B; | PaddleOCR | &#x6279;&#x91CF;&#x5904;&#x7406;</text>
+  <g transform="translate(137,116)">
     <rect width="66" height="22" rx="11" fill="#1a2332" stroke="#58a6ff" stroke-width="1"/>
     <text x="33" y="15" font-family="monospace" font-size="10" fill="#58a6ff" text-anchor="middle">Python</text>
     <rect x="76" width="88" height="22" rx="11" fill="#1a2332" stroke="#f0883e" stroke-width="1"/>
